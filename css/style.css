@@ -138,10 +138,12 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: inline-block;
+    margin: 0 auto;
 }
 .site-content {
-    position: absolute;
     padding-top: 45px;
+    padding-right: 150px;
     width: 100%;
     height: 100%;
 }
@@ -151,4 +153,20 @@ li {
     border: none;
     height: 15px;
     margin: -2px 0 0 0;
+}
+
+.container-left-50 {
+    margin: 20px auto;
+    border: 1px solid white;
+    width: 45%;
+    height: 100px;
+    float: left;
+}
+
+.container-right-50 {
+    margin: 20px auto;
+    border: 1px solid white;
+    width: 45%;
+    height: 100px;
+    float: right;
 }
