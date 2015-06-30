@@ -1,0 +1,134 @@
+header {
+  height: 450px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -10px;
+  background: url("https://unsplash.imgix.net/reserve/O7A9fAvYSXC7NTdz8gLQ_IMGP1039.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050") 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 2px 1px 1px #c3c3c3;
+}
+
+body {
+    font-family: 'Open Sans', 'Helveitca', sans-serif;
+  background-color: #E9FFF8;
+}
+
+#top-bar {
+  background-color: #0968a3;
+  height: 20px;
+}
+
+#banner-text {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div h1 {
+  font-size: 118px;
+  font-family: Arial;
+  color: #0bc5fd;
+  text-shadow: 1px 4px #0968a3;
+}
+
+div h3 {
+  font-size: 32px;
+  color: #acc5f5;
+  background-color: #0968a3;
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+section {
+
+}
+
+section div {
+  width: 550px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: 'Gentium Book Basic', 'Helvetica';
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  color: #959595;
+}
+
+span {
+  color: #e5003e;
+  font-weight: bold;
+}
+
+footer {
+  height: 200px;
+  background-color: #0968a3;
+}
+
+#footer-text {
+  line-height: 12px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  font-family: Helvetica;
+  font-weight: 100;
+
+}
+
+#footer-text a {
+  color: #ffae14;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer-text a:hover {
+  color: #f8d082;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.question-section {
+  margin-top: 60px;
+}
+
+.question-text {
+  border: 2px solid #28afeb;
+  text-align: center;
+  border-radius: 18px;
+  margin-top: 10px;
+}
+
+.question-text p {
+  color: #8a12a7;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.answered {
+  text-decoration: line-through;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner-text {
+    padding: 3em 0;
+  }
+  .banner-heading {
+    font-size: 3em;
+  }
+}
