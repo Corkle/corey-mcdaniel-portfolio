@@ -13,12 +13,13 @@ body {
 }
 
 .top-nav-bar > div {
-    width: 80%;
+    width: 90%;
     min-width: 500px;
     margin: 0 auto;
 }
 
 .top-nav-bar .nav-bar-buttons {
+    line-height: 0px;
     float: right;
     position: relative;
     top: 30px;
