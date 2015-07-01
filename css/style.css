@@ -28,8 +28,10 @@ body {
 
 .nav-bar-buttons .links li {
     display: inline-block;
-    padding: 15px 30px;
-    font-size: 1.3em;
+    padding: 30px 30px;
+    font-size: 1.5em;
+    color: #B26817;
+    font-weight: 400;
 }
 
 div h1 {
@@ -105,15 +107,6 @@ footer .links li {
     margin-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    .container-left-50 {
-        min-width: 100%;
-    }
-    .banner-heading {
-        font-size: 58px;
-    }
-}
-
 #intro-content {
     box-sizing: border-box;
     font-size: 0;
@@ -130,7 +123,7 @@ footer .links li {
     display: inline-block;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 10px;
+    padding: 0 30px;
 }
 .site-content {
     padding-top: 45px;
@@ -163,4 +156,17 @@ footer .links li {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+
+@media only screen and (max-width: 630px) {
+    .container-left-50 {
+        min-width: 100%;
+    }
+    .banner-heading {
+        font-size: 58px;
+    }
+    .nav-bar-buttons .links li {
+        font-size: 1em;
+    }
 }
