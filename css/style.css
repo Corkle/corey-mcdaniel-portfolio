@@ -28,10 +28,16 @@ body {
 
 .nav-bar-buttons .links li {
     display: inline-block;
-    padding: 30px 30px;
-    font-size: 1.5em;
-    color: #B26817;
+    padding: 20px 30px;
+    font-size: 1.1em;
+    color: rgb(178, 104, 23);
     font-weight: 400;
+    opacity: .7;
+    text-transform: uppercase;
+}
+
+.links li:hover {
+    opacity: 1;
 }
 
 div h1 {
