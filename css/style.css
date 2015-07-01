@@ -1,55 +1,60 @@
-.header {
-    height: 450px;
-    margin-left: -20px;
-    margin-right: -20px;
-    background: url("https://unsplash.imgix.net/reserve/O7A9fAvYSXC7NTdz8gLQ_IMGP1039.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050") 30%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0px 2px 1px 1px #c3c3c3;
-}
-
 body {
     overflow-x: hidden;
     font-family: 'Open Sans', 'Helveitca', sans-serif;
-    background-color: #0f2610;
+    background-color: #FFF;
 }
 
 .top-nav-bar {
     position: fixed;
-    background-color: #520540;
+    background-color: #03384C;
     height: 60px;
     width: 100%;
     z-index: 9999;
 }
 
-#banner-text {
+.top-nav-bar > div {
+    width: 80%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.top-nav-bar .nav-bar-buttons {
+    float: right;
     position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 30px;
+    transform: translateY(-50%);
+}
+
+.nav-bar-buttons .links li {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.3em;
 }
 
 div h1 {
-    font-size: 118px;
-    font-family: Arial;
-    color: #0bc5fd;
-    text-shadow: 1px 4px #0968a3;
+    font-size: 72px;
+    color: #FFAD53;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    margin: 0 auto;
+/*    text-transform: uppercase;*/
 }
 
 div h3 {
     font-size: 32px;
-    color: #acc5f5;
-    background-color: #0968a3;
-    display: inline-block;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #000;
     padding-left: 12px;
     padding-right: 12px;
+    margin-bottom: 0px;
+
 }
 
 section div {
     width: 550px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 h2 {
@@ -70,7 +75,7 @@ span {
 
 footer {
     height: 200px;
-    background-color: #0968a3;
+    background-color: #03384C;
 }
 
 #footer-text {
@@ -86,7 +91,7 @@ footer {
 }
 
 #footer-text a {
-    color: #ffae14;
+    color: #FFAD53;
     font-weight: bold;
     text-decoration: none;
 }
@@ -95,78 +100,67 @@ footer {
     color: #f8d082;
 }
 
-li {
+footer .links li {
     display: inline-block;
     margin-left: 20px;
 }
 
-.question-section {
-    margin-top: 60px;
-}
-
-.question-text {
-    border: 2px solid #28afeb;
-    text-align: center;
-    border-radius: 18px;
-    margin-top: 10px;
-}
-
-.question-text p {
-    color: #8a12a7;
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.answered {
-    text-decoration: line-through;
-}
-
-@media only screen and (max-width: 500px) {
-    .banner-text {
-        padding: 3em 0;
+@media only screen and (max-width: 600px) {
+    .container-left-50 {
+        min-width: 100%;
     }
     .banner-heading {
-        font-size: 3em;
+        font-size: 58px;
     }
+}
+
+#intro-content {
+    box-sizing: border-box;
+    font-size: 0;
 }
 
 #intro-content > div{
     width: 100%;
     height: 600px;
     min-width: 300px;
-    background: url('../images/1416720924769.jpg');
+    background: url('../images/waterdrops.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 .site-content {
     padding-top: 45px;
     padding-right: 150px;
     width: 100%;
     height: 100%;
+    font-family: 'PT Serif', serif;
 }
 
 .content-seperator {
     background: #000;
     border: none;
     height: 15px;
-    margin: -2px 0 0 0;
+    margin: 0;
 }
 
 .container-left-50 {
-    margin: 20px auto;
-    border: 1px solid white;
-    width: 45%;
-    height: 100px;
+    width: 50%;
+    height: 300px;
     float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .container-right-50 {
-    margin: 20px auto;
-    border: 1px solid white;
-    width: 45%;
-    height: 100px;
+    width: 50%;
+    height: 300px;
     float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
