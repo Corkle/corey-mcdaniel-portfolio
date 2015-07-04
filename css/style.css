@@ -176,7 +176,7 @@ span {
     font-weight: bold;
 }
 
-.filler-image > div {
+.projects-banner > div {
     width: 100%;
     height: 400px;
     background: url('../images/tubes.jpg');
@@ -195,6 +195,25 @@ span {
     text-align: center;
     margin: 0 auto;
 }
+
+#projects-content > div {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.project-list li {
+    display: inline-block;
+    width: 45%;
+}
+
+.project-list li > img {
+    width: 50%; 
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+}
+
 
 @media only screen and (max-width: 630px) {
     .banner-heading {
@@ -223,7 +242,7 @@ span {
     #intro-content > div {
         height: 400px;
     }
-    .filler-image > div {
+    .projects-banner > div {
         height: 300px;
     }
     .content-separator {
@@ -235,10 +254,10 @@ span {
     #intro-content .container-left-50 {
         min-width: 100%;
     }
-    .filler-image .container-left-50 {
+    .projects-banner .container-left-50 {
         display: none;
     }
-    .filler-image .container-right-50 {
+    .projects-banner .container-right-50 {
         min-width: 100%;
     }
 }
