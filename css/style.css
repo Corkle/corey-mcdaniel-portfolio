@@ -24,21 +24,19 @@ body {
 
 .top-nav-bar div > div {
     display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .top-nav-bar .bar-icons {
     font-size: 32px;
     margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    color: rgb(178, 104, 23);
 }
 
 .top-nav-bar .nav-bar-buttons {
     float: right;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .nav-bar-buttons .links li {
@@ -105,16 +103,16 @@ div h3 {
 
 .container-left-50 {
     width: 50%;
-    height: 80%px;
+    height: 60%;
     float: left;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 
 .container-right-50 {
     width: 50%;
-    height: 80%;
+    height: 60%;
     float: right;
     position: relative;
     top: 50%;
